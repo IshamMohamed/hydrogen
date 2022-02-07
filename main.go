@@ -21,6 +21,8 @@ func main() {
 		fmt.Fprintf(w, "Welcome to About Page!")
 	})
 
+	http.HandleFunc()
+
 	fmt.Printf("Starting server at port %s\n", port)
 	if err := http.ListenAndServe(":"+port, nil); err != nil {
 		log.Fatal(err)
