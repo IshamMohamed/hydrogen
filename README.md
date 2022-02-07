@@ -1,3 +1,3 @@
 # To Build
 
-`go build`
+Execute `go build` in the project root folder
